@@ -1,0 +1,21 @@
+{
+  "name": "nodejs_tic_tac_toe_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node lib/webserver/server.js",
+    "dev": "nodemon lib/webserver/server.js",
+    "clean": "rmdir /s /q node_modules"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
